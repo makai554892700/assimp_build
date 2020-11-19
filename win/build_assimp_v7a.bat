@@ -2,12 +2,12 @@
 cls
 
 REM *NOTE* Change these based on 
-SET ASSIMP_DIR=./
+SET ASSIMP_DIR=../assimp
 SET API=24
 REM ARCH arm arm64 x86 x86_64
-SET ARCH=arm64
+SET ARCH=arm
 REM ARCH armeabi-v7a arm64-v8a x86 x86_64
-SET ARCH_ABI=arm64-v8a
+SET ARCH_ABI=armeabi-v7a
 SET OUTPUT_DIR=assimp-build-%ARCH%
 SET ANDROID_PATH=D:\Develop\sdk
 SET NDK_PATH=D:\Develop\ndk\android-ndk-r21

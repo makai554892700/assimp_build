@@ -2,7 +2,7 @@
 cls
 
 REM *NOTE* Change these based on 
-SET ASSIMP_DIR=./
+SET ASSIMP_DIR=../assimp
 SET API=24
 REM ARCH arm arm64 x86 x86_64
 SET ARCH=x86_64
